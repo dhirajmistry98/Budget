@@ -1,0 +1,59 @@
+.budget-summary-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.budget-summary-container .button {
+  background-color: blue !important; /* Force blue background */
+  color: white !important;           /* Force white text color */
+}
+.budget-summary-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.budget-summary-container p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.button {
+  color: white;           /* White text color */
+  border: none;           /* Remove default border */
+  padding: 10px 20px;     /* Padding around text */
+  font-size: 16px;        /* Font size of the text */
+  cursor: pointer;        /* Pointer cursor on hover */
+  border-radius: 5px;     /* Rounded corners */
+  margin: 5px;            /* Space around buttons */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.button-previous {
+  background-color: #007bff; /* Blue background color */
+}
+
+.button-previous:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.button-next {
+  background-color: #28a745; /* Green background color */
+}
+
+.button-next:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.button:focus {
+  outline: none;            /* Remove focus outline */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
